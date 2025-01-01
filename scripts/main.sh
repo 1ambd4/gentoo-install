@@ -110,6 +110,7 @@ function configure_portage() {
     		chmod 644 /etc/portage/gnupg/pubring.kbx
 	fi
 
+	echo 'GENTOO_MIRRORS="$GENTOO_MIRRORS"' >> /etc/portage/make.conf
 	chmod 644 /etc/portage/make.conf \
 		|| die "Could not chmod 644 /etc/portage/make.conf"
 }

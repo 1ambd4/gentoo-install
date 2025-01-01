@@ -426,9 +426,9 @@ function load_default_config() {
 	STAGE3_VARIANT="systemd"
 	PORTAGE_SYNC_TYPE="git"
 	PORTAGE_GIT_FULL_HISTORY=false
-	PORTAGE_GIT_MIRROR="https://anongit.gentoo.org/git/repo/sync/gentoo.git"
+	PORTAGE_GIT_MIRROR="https://mirrors.ustc.edu.cn/gentoo.git"
 
-	GENTOO_MIRROR="https://mirror.eu.oneandone.net/linux/distributions/gentoo/gentoo"
+	GENTOO_MIRRORS="https://mirrors.ustc.edu.cn/gentoo/"
 	GENTOO_ARCH="amd64"
 
 	USE_PORTAGE_TESTING=true
